@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\style.css">
+    <title>CSS</title>
+</head>
+
+<body>
+    <div class="header">
+        <img class="profile-pic" src="jpg\profile.jpg" alt="Profile">
+        <h1>w3classes</h1>
+    </div>
+
+    <div class="clearfix">
+        <div class="o-visible menu">
+
+            <table>
+
+                <h3 class="h-t"><span>CSS Tutorial</span></h3>
+                <hr>
+                <ul class="option">
+
+                    <tr>
+                        <td>
+                            <a href="#intro">
+                                <li class="optn">CSS Introduction</li>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#css-syntax">
+                                <li class="optn">CSS Syntax</li>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#css-selector">
+                                <div class="dropdown">
+                                    <li class="optn dropbtn">CSS Selectors</li>
+                                    <!-- <button class="dropbtn">Dropdown</button> -->
+                                    <div class="dropdown-content">
+                                        <a href="#e-selector">Element Selector</a>
+                                        <a href="#">Link 2</a>
+                                        <a href="#">Link 3</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#add-css">
+                                <div class="dropdown">
+                                    <li class="optn dropbtn">How to add CSS</li>
+                                    <!-- <button class="dropbtn">Dropdown</button> -->
+                                    <div class="dropdown-content">
+                                        <a href="#">Link 1</a>
+                                        <a href="#">Link 2</a>
+                                        <a href="#">Link 3</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#css-bg">
+                                <li class="optn">CSS Backgrounds</li>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#css-background-img">
+                                <li class="optn">CSS Background Image</li>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#css-box-model">
+                                <li class="optn">CSS Box Model</li>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#css-fonts">
+                                <li class="optn">CSS Fonts</li>
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <a href="#youtube">
+                                <li class="optn">YouTube</li>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#border-style">
+                                <li class="optn">The border-style Property</li>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#border-width">
+                                <li class="optn">The border-width Property</li>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#links">
+                                <li class="optn">Links</li>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#cursor">
+                                <li class="optn">Cursor</li>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#css-lst">
+                                <li class="optn">CSS Lists</li>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#css-border">
+                                <li class="optn">CSS border/Tables</li>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#CSS Display">
+                                <li class="optn">CSS Display</li>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#CSS Max-width">
+                                <li class="optn">CSS Max-width</li>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#css-position">
+                                <li class="optn">CSS Position</li>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#over-flow">
+                                <li class="optn">OverFlow</li>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#f-and-c">
+                                <li class="optn">Float and Clear</li>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#float-eg">
+                                <li class="optn">Float Examples</li>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#display-property">
+                                <li class="optn">The display Property</li>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#alignments">
+                                <li class="optn">Alignments</li>
+                            </a>
+                        </td>
+                    </tr>
+            </table>
+        </div>
+        <div id="menu-bar">
+
+            <ul class="nav">
+                <li class="nav-bar"><a href="index.html">Home</a></li>
+                <li class="nav-bar"><a href="htmltut.html">HTML</a></li>
+                <li class="nav-bar"><a href="#contact" class="active">CSS</a></li>
+                <li class="nav-bar"><a href="#about">About</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1 id="intro">CSS Introduction</h1>
+            <hr>
+            <p>CSS is the language we use to style a Web page.</p>
+            <hr>
+            <h2>What is CSS?</h2>
+            <ul>
+                <li>CSS stands for Cascading Style Sheets</li>
+                <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+                <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+                <li>External stylesheets are stored in CSS files</li>
+            </ul>
+            <hr>
+            <h2>
+                Why use CSS??
+            </h2>
+            <p>CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.</p>
+            <div class="css-eg">
+                <h2>CSS Example</h2>
+                <img class="code-img" src="png\code1.png" alt="CSS Example">
+            </div>
+            <hr>
+            <div>
+                <h1 id="css-syntax">CSS Syntax</h1>
+                <hr>
+                <p>A CSS rule consists of a selector and a declaration block.</p>
+                <hr>
+                <h2>
+                    CSS Syntax
+                </h2>
+                <img src="png\css-syntax.png" alt="css-syntax" width="620px" height="150px">
+                <ul style="list-style-type: none;">
+                    <li>The selector points to the HTML element you want to style.</li>
+                    <li>The declaration block contains one or more declarations separated by semicolons.</li>
+                    <li>Each declaration includes a CSS property name and a value, separated by a colon.</li>
+                    <li>Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</li>
+                </ul>
+                <hr>
+                <h1 id="css-selector">CSS Selectors</h1>
+                <hr>
+                <p> A CSS selector selects the HTML element(s) you want to style</p>
+                <hr>
+                <h2>CSS Selectors</h2>
+                <p>CSS selectors are used to "find" (or select) the HTML elements you want to style.</p>
+                <p>We can divide CSS selectors into five categories:</p>
+                <ul>
+                    <li>Simple selectors (select elements based on name, id, class)</li>
+                    <li>Combinator selectors (select elements based on a specific relationship between them)</li>
+                    <li>Pseudo-class selectors (select elements based on a certain state)</li>
+                    <li>Pseudo-elements selectors (select and style a part of an element)</li>
+                    <li>Attribute selectors (select elements based on an attribute or attribute value)</li>
+
+                </ul>
+                <p>Let us explain the most basic CSS selectors.</p>
+                <hr>
+                <h2 id="e-selector">The CSS element Selector</h2>
+                <p>The element selector selects HTML elements based on the element name.</p>
+                <div class="css-eg">
+                    <h2>Example</h2>
+                    <p>In this example all &lt; p &gt; elements will be center-aligned, with a red text color:</p>
+                    <img class="code-img" src="png\code2.png" alt="">
+                </div>
+                <hr>
+                <h2>The CSS id Selector</h2>
+                <p>The id selector uses the id attribute of an HTML element to select a specific element.</p><br>
+                <p>The id of an element is unique within a page, so the id selector is used to select one unique element!
+                </p><br>
+                <p>To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+                </p><br>
+                <div class="css-eg">
+                    <h2>Example</h2>
+                    <p>The CSS rule below will be applied to the HTML element with id="para1":</p>
+                    <img class="code-img" src="png\code3.png" alt="Example">
+                </div>
+                <br>
+                <div class="note"><strong>NOTE: </strong> An id name cannot start with a number!</div>
+                <hr>
+                <h2>The CSS class Selector</h2>
+                <p>The class selector selects HTML elements with a specific class attribute.</p>
+
+                <p>To select elements with a specific class, write a period (.) character, followed by the class name.
+                </p>
+                <div class="css-eg">
+                    <h2>Example</h2>
+                    <p>In this example all HTML elements with class="center" will be red and center-aligned:</p>
+                    <img src="png\code4.png" alt="Example" class="code-img">
+                </div>
+                <br>
+                <strong>You can also specify that only specific HTML elements should be affected by a class.</strong>
+                <br><br>
+                <div class="css-eg">
+                    <h2>Example</h2>
+                    <p>In this example only &lt; p &gt; elements with class="center" will be red and center-aligned:
+                    </p>
+                    <img src="png\code5.png" alt="Example" class="code-img">
+                </div>
+                <br>
+                <strong>HTML elements can also refer to more than one class.</strong>
+                <br><br>
+                <div class="css-eg">
+                    <h2>Example</h2>
+                    <p>In this example the &lt;p&gt; element will be styled according to class="center" and to class="large":
+                    </p>
+                    <img src="png\code6.png" alt="Example" class="code-img">
+                </div>
+                <br>
+                <div class="note"><strong>NOTE: </strong> A class name cannot start with a number!</div>
+                <br>
+                <hr>
+                <h1> The CSS Universal Selector</h1>
+                <p>The universal selector (*) selects all HTML elements on the page.</p>
+                <div class="css-eg">
+                    <h2>Example</h2>
+                    <p>The CSS rule below will affect every HTML element on the page: </p>
+                    <img src="png\code7.png" alt="Example" class="code-img">
+                </div>
+                <br>
+                <hr>
+                <h1>The CSS Grouping Selector</h1>
+                <p>The grouping selector selects all the HTML elements with the same style definitions.</p>
+                <p>Look at the following CSS code (the h1, h2, and p elements have the same style definitions):
+
+                </p>
+                <br>
+                <p>It will be better to group the selectors, to minimize the code.</p>
+                <p>To group selectors, separate each selector with a comma.</p>
+                <div class="css-eg">
+                    <h2>Example</h2>
+                    <p>In this example we have grouped the selectors from the code above: </p>
+                    <img src="png\code8.png" alt="Example" class="code-img">
+                </div>
+                <br>
+                <hr>
+                <h1 id="add-css">How To Add CSS</h1>
+                <hr>
+                <p>When a browser reads a style sheet, it will format the HTML document according to the information in the style sheet.</p>
+                <hr>
+                <h2>Three Ways to Insert CSS</h2>
+                <p>There are three ways of inserting a style sheet:</p>
+                <ul>
+                    <li>External CSS</li>
+                    <li>Internal CSS</li>
+                    <li>Internal CSS</li>
+                </ul>
+                <hr>
+                <h2>External CSS</h2>
+                <p>With an external style sheet, you can change the look of an entire website by changing just one file!
+                </p>
+                <p>Each HTML page must include a reference to the external style sheet file inside the &lt;link &gt; element, inside the head section.</p>
+                <div class="css-eg">
+                    <h2>Example</h2>
+                    <p>External styles are defined within the &lt;link&gt; element, inside the &lt;head&gt; section of an HTML page: </p>
+                    <img src="png\code9.png" alt="Example" class="code-img">
+                </div>
+                <br>
+                <p>An external style sheet can be written in any text editor, and must be saved with a .css extension.</p>
+                <p>The external .css file should not contain any HTML tags.</p>
+                <p>Here is how the "mystyle.css" file looks:</p>
+                <div class="css-eg">
+                    <h2>"mystyle.css"</h2>
+                    <img src="png\code10.png" alt="Example" class="code-img">
+                </div>
+                <hr>
+                <h2>Internal CSS</h2>
+                <p>An internal style sheet may be used if one single HTML page has a unique style.</p>
+                <p>The internal style is defined inside the &lt;style&gt; element, inside the head section.</p>
+                <div class="css-eg">
+                    <h2>Example</h2>
+                    <p>Internal styles are defined within the &lt;style&gt; element, inside the &lt;head&gt; section of an HTML page: </p>
+                    <img src="png\code11.png" alt="Example" class="code-img">
+                </div>
+                <hr>
+                <h2>Inline CSS</h2>
+                <p>An inline style may be used to apply a unique style for a single element.</p>
+                <p>To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.</p>
+                <div class="css-eg">
+                    <h2>Example</h2>
+                    <p>Inline styles are defined within the &lt;style&gt; element, inside the &lt;head&gt; section of an HTML page: </p>
+                    <img src="png\code12.png" alt="Example" class="code-img">
+                </div>
+                <hr>
+                <h2>Cascading Order</h2>
+                <p>What style will be used when there is more than one style specified for an HTML element?</p>
+                <p>All the styles in a page will "cascade" into a new "virtual" style sheet by the following rules, where number one has the highest priority:</p>
+                <ol type="1">
+                    <li>Inline style (inside an HTML element)</li>
+                    <li>External and internal style sheets (in the head section)</li>
+                    <li>Browser default</li>
+                </ol>
+                <p>So, an inline style has the highest priority, and will override external and internal styles and browser defaults.</p>
+            </div>
+            <hr>
+            <h1 id="css-bg">CSS Backgrounds</h1>
+            <hr>
+            <p>The CSS background properties are used to add background effects for elements.</p>
+            <hr>
+            <div class="css-background">
+                <p style="color: rgb(0, 0, 0);">In these chapters, you will learn about the following CSS background properties:</p>
+                <ul style="color: brown;">
+                    <li>background-color</li>
+                    <li>background-image</li>
+                    <li>background-repeat</li>
+                    <li>background-attachment</li>
+                    <li>background-position</li>
+                    <li>background </li><span style="color: rgb(0, 0, 0);">(shorthand property)</span>
+                </ul>
+            </div>
+            <h2>CSS background-color</h2>
+            <p>The<span class="red">background-color</span>property specifies the background color of an element.</p>
+            <div class="css-eg">
+                <h2>Example</h2>
+                <p>The background color of a page is set like this: </p>
+                <img src="png\code13.png" alt="Example" class="code-img">
+            </div>
+            <p>With CSS, a color is most often specified by:</p>
+            <ul>
+                <li>a valid color name - like "red"</li>
+                <li>a HEX value - like "#ff0000"</li>
+                <li>an RGB value - like "rgb(255,0,0)"</li>
+            </ul>
+            <hr>
+            <h2>Opacity / Trancparency</h2>
+            <p>The<span class="red">opacity</span>property specifies the opacity/transparency of an element. It can take a value from 0.0 - 1.0. The lower value, the more transparent:</p>
+            <div class="css-eg">
+                <h2>Example</h2>
+
+                <img src="png\code14.png" alt="Example" class="code-img" style="width: 800px;height: 900px;margin-left: 50px;">
+            </div>
+            <br>
+            <div class="note"><strong>Note:</strong>When using the <span class="red"> opacity </span>property to add transparency to the background of an element, all of its child elements inherit the same transparency. This can make the text inside a fully transparent
+                element hard to read.</div>
+            <hr>
+            <h2>Trancparency using RGBA</h2>
+            <p>If you do not want to apply opacity to child elements, like in our example above, use <strong>RGBA</strong> color values. The following example sets the opacity for the background color and not the text:</p>
+            <p>An RGBA color value is specified with: rgba(red, green, blue, alpha). The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque).</p>
+            <div class="css-eg">
+                <h2>Example</h2>
+
+                <img src="png\code15.png" alt="Example" class="code-img" style="width: 800px;height: 900px;margin-left: 50px;">
+            </div>
+            <hr>
+            <h1 id="css-background-img">CSS Background Image</h1>
+            <hr>
+            <h2>CSS Background Image</h2>
+            <p>The <span class="red">background-image</span> property specifies an image to use as the background of an element.</p>
+            <p>By default, the image is repeated so it covers the entire element.</p>
+            <div class="css-eg">
+                <h2>Example</h2>
+                <p>Set the background image for a page: </p>
+                <img src="png\code16.png" alt="Example" class="code-img"><br>
+            </div><br><br>
+            <div class="css-eg">
+                <h2>Example</h2>
+                <p>This example shows a <strong>bad combination </strong> of text and background image. The text is hardly readable: </p>
+                <img src="png\code17.png" alt="Example" class="code-img"><br>
+            </div> <br><br>
+            <div class="note"><strong>Note:</strong>
+                <p>When using a background image, use an image that does not disturb the text.</p>
+            </div>
+            <p>The background image can also be set for specific elements, like the &lt;p&gt; element:</p>
+            <div class="css-eg">
+                <h2>Example</h2>
+                <img src="png\code18.png" alt="Example" class="code-img"><br>
+            </div>
+            <h1 id="css-background-repeat">CSS Background Repeat</h1>
+            <hr>
+            <h2>CSS background-repeat</h2>
+            <p>By default, the <span class="red">background-image</span> property repeats an image both horizontally and vertically.</p>
+            <div class="css-eg">
+                <h2>Example</h2>
+                <img src="png\code19.png" alt="Example" class="code-img"><br>
+            </div>
+            <br>
+            <p>If the image above is repeated only horizontally ( <span class="red">background-repeat: repeat-x;</span>), the background will look better:</p><br>
+            <div class="css-eg">
+                <h2>Example</h2>
+                <img src="png\code20.png" alt="Example" class="code-img"><br>
+            </div>
+            <br>
+            <div class="note"><strong>Tip:</strong>To repeat an image vertically, set<span class="red"> background-repeat: repeat-y;</span> </div>
+            <hr>
+            <h2>CSS background-repeat: no-repeat</h2>
+            <p>Showing the background image only once is also specified by the <span class="red">background-repeat </span>property:</p>
+            <div class="css-eg">
+                <h2>Example</h2>
+                <p>Show the background image only once:</p>
+                <img src="png\code21.png" alt="Example" class="code-img"><br>
+            </div>
+            <br>
+            <p>In the example above, the background image is placed in the same place as the text. We want to change the position of the image, so that it does not disturb the text too much.</p>
+            <br>
+            <hr>
+            <h1 id="css-box-model">CSS Box Model</h1>
+            <hr>
+            <p>All HTML elements can be considered as boxes.</p>
+            <hr>
+
+            <div class="clearfix">
+                <h2>The CSS Box Model</h2>
+
+                <img class="box-model" src="png\box-model.png" alt="box model">
+                <p>In CSS, the term "box model" is used when talking about design and layout</p><br>
+                <p>In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below
+                    illustrates the box model:
+                </p>
+            </div>
+            <p>Explanation of the different parts:</p>
+            <ul>
+                <li>Content - The content of the box, where text and images appear</li>
+                <li>Padding - Clears an area around the content. The padding is transparent</li>
+                <li>Border - A border that goes around the padding and content</li>
+                <li>Margin - Clears an area outside the border. The margin is transparent
+                </li>
+            </ul>
+            <p>The box model allows us to add a border around elements, and to define space between elements. </p>
+            <br>
+            <hr>
+            <h2>Width and Height of an Element</h2>
+            <p>In order to set the width and height of an element correctly in all browsers, you need to know how the box model works.</p>
+            <br>
+            <div class="note"><strong>Important:</strong> When you set the width and height properties of an element with CSS, you just set the width and height of the <strong>content area </strong> . To calculate the full size of an element, you must also add padding,
+                borders and margins.</div>
+            <hr>
+
+
+            <h1 id="css-fonts">CSS Fonts</h1>
+            <hr>
+            <p>Choosing the right font for your website is important!</p>
+            <hr>
+            <h2>Font Selection is Important</h2>
+            <p>Choosing the right font has a huge impact on how the readers experience a website.</p>
+
+            <p>The right font can create a strong identity for your brand.</p>
+
+            <p>Using a font that is easy to read is important. The font adds value to your text. It is also important to choose the correct color and text size for the font.
+
+            </p>
+            <hr>
+            <h2>Generic Font Families</h2>
+            <p>In CSS there are five generic font families:</p>
+            <ol type="1">
+                <li><strong>Serif</strong>fonts have a small stroke at the edges of each letter. They create a sense of formality and elegance.</li>
+                <li><strong>Sans-serif </strong>fonts have clean lines (no small strokes attached). They create a modern and minimalistic look.</li>
+                <li><strong>Monospace</strong>fonts - here all the letters have the same fixed width. They create a mechanical look. </li>
+                <li><strong>Cursive</strong>fonts imitate human handwriting.</li>
+                <li><strong>Fantasy</strong>fonts are decorative/playful fonts.
+                </li>
+            </ol>
+            <p>All the different font names belong to one of the generic font families.
+
+            </p>
+            <div class="note"><strong>Note:</strong> On computer screens, sans-serif fonts are considered easier to read than serif fonts.</div>
+            <hr>
+            <h2>The CSS font-family Property</h2>
+            <p>In CSS, we use the <span class="red">font-family</span>property to specify the font of a text.</p>
+            <p>The <span class="red">font-family</span> property should hold several font names as a "fallback" system, to ensure maximum compatibility between browsers/operating systems. Start with the font you want, and end with a generic family (to let
+                the browser pick a similar font in the generic family, if no other fonts are available). The font names should be separated with comma.</p>
+
+            <div class="note"><strong>Note:</strong> If the font name is more than one word, it must be in quotation marks, like: "Times New Roman".</div>
+            <br>
+            <div class="css-eg">
+                <h2>Example</h2>
+                <p>Specify some different fonts for three paragraphs:</p>
+                <img src="png\code22.png" alt="Example" class="code-img">
+            </div>
+            <br>
+            <hr>
+            <h2>CSS Web Safe Fonts</h2>
+            <hr>
+            <h2>What are Web Safe Fonts?</h2>
+            <p>Web safe fonts are fonts that are universally installed across all browsers and devices.</p>
+            <hr>
+            <h2>Fallback Fonts</h2>
+            <p>However, there are no 100% completely web safe fonts. There is always a chance that a font is not found or is not installed properly.</p>
+            <p>Therefore, it is very important to always use fallback fonts.</p>
+            <p>This means that you should add a list of similar "backup fonts" in the <span class="red">font-family</span> property. If the first font does not work, the browser will try the next one, and the next one, and so on. Always end the list with
+                a generic font family name.</p>
+            <strong>Here, there are three font types: Tahoma, Verdana, and sans-serif. The second and third fonts are backups, in case the first one is not found.</strong>
+            <hr>
+            <h2>Best Web Safe Fonts for HTML and CSS</h2>
+            <p>The following list are the best web safe fonts for HTML and CSS:</p>
+            <ul>
+                <li>Arial (sans-serif)</li>
+                <li>Verdana (sans-serif)</li>
+                <li>Helvetica (sans-serif)</li>
+                <li>Tahoma (sans-serif)</li>
+                <li>Trebuchet MS (sans-serif)</li>
+                <li>Times New Roman (serif)</li>
+                <li>Georgia (serif)</li>
+                <li>Garamond (serif)
+                </li>
+                <li>Courier New (monospace)</li>
+                <li>Brush Script MT (cursive)</li>
+            </ul>
+
+            <div class="note"><strong>Note:</strong> Before you publish your website, always check how your fonts appear on different browsers and devices, and always use fallback fonts!</div>
+
+            <h1>CSS Font Fallbacks</h1>
+            <hr>
+            <h2>Commonly Used Font Fallbacks</h2>
+            <p>Below are some commonly used font fallbacks, organized by the 5 generic font families:</p>
+            <ul>
+                <li>Serif</li>
+                <li>Sans-serif</li>
+                <li>Monospace</li>
+                <li>Cursive</li>
+                <li>Fantasy</li>
+            </ul>
+            <hr>
+            <div class="note"><strong>Tip:</strong>Also check out all available Google Fonts and how to use them.</div>
+            <hr>
+            <h1>CSS Font Style</h1>
+            <hr>
+            <h2>Font Style</h2>
+            <p>The <span class="red">font-style</span> property is mostly used to specify italic text.</p>
+            <p>This property has three values:</p>
+            <ul>
+                <li>normal - The text is shown normally</li>
+                <li>italic - The text is shown in italics
+                </li>
+                <li>oblique - The text is "leaning" (oblique is very similar to italic, but less supported)</li>
+            </ul>
+            <div class="css-eg">
+                <h2>Example</h2>
+                <img src="png\code23.png" alt="Example" class="code-img">
+            </div>
+            <br>
+            <hr>
+            <h2>Font Weight</h2>
+            <p>The <span class="red">font-weight</span> property specifies the weight of a font:</p>
+            <div class="css-eg">
+                <h2>Example</h2>
+                <img src="png\code24.png" alt="Example" class="code-img">
+            </div>
+            <br>
+            <hr>
+            <h2>Font Variant</h2>
+            <p>The <span class="red">font-variant</span> property specifies whether or not a text should be displayed in a small-caps font.</p>
+            <p>In a small-caps font, all lowercase letters are converted to uppercase letters. However, the converted uppercase letters appears in a smaller font size than the original uppercase letters in the text.</p>
+
+            <div class="css-eg">
+                <h2>Example</h2>
+                <img src="png\code25.png" alt="Example" class="code-img">
+            </div>
+            <br>
+            <hr>
+            <h1>CSS Google Fonts</h1>
+            <hr>
+            <h2>Google Fonts</h2>
+            <p>If you do not want to use any of the standard fonts in HTML, you can use Google Fonts.</p>
+
+            <p>Google Fonts are free to use, and have more than 1000 fonts to choose from.</p>
+            <hr>
+
+            <h2>How To Use Google Fonts</h2>
+            <p>Just add a special style sheet link in the &lt;head&gt; section and then refer to the font in the CSS.</p>
+
+
+            <div class="css-eg">
+                <h2>Example</h2>
+                <p>Here, we want to use a font named "Sofia" from Google Fonts:</p>
+                <img src="png\code26.png" alt="Example" class="code-img">
+            </div>
+            <br>
+            <div class="note"><strong>Note:</strong> When specifying a font in CSS, always list at minimum one fallback font (to avoid unexpected behaviors). So, also here you should add a generic font family (like serif or sans-serif) to the end of the list.</div>
+            <hr>
+            <h2>Use Multiple Google Fonts</h2>
+            <p>To use multiple Google fonts, just separate the font names with a pipe character (<span class="red">|</span>), like this:
+
+            </p>
+            <div class="css-eg">
+                <h2>Example</h2>
+                <p>Request multiple fonts:</p>
+                <img src="png\code27.png" alt="Example" class="code-img" style="width: 800px;height: 900px;margin-left: 50px;">
+            </div>
+            <br>
+            <div class="note"><strong>Note:</strong> Requesting multiple fonts may slow down your web pages! So be careful about that.</div>
+            <hr>
+            <h1>CSS Great Font Pairingss</h1>
+            <hr>
+            <h2>Font Pairing Rules</h2>
+            <p>Here are some basic rules to create great font pairings:</p>
+            <h3>1. Compliment</h3>
+            <p>It is always safe to find font pairings that complement one another.</p>
+            <p>A great font combination should harmonize, without being too similar or too different.</p>
+            <h3>2. Use Font Superfamilies</h3>
+            <p>A font superfamily is a set of fonts designed to work well together. So, using different fonts within the same superfamily is safe.</p>
+            <p>For example, the Lucida superfamily contains the following fonts: Lucida Sans, Lucida Serif, Lucida Typewriter Sans, Lucida Typewriter Serif and Lucida Math.</p>
+            <h3>3. Contrast is King</h3>
+            <p>Two fonts that are too similar will often conflict. However, contrasts, done the right way, brings out the best in each font.</p>
+            <p>Example: Combining serif with sans serif is a well known combination.</p>
+            <p>A strong superfamily includes both serif and sans serif variations of the same font (e.g. Lucida and Lucida Sans).</p>
+
+            <h3>4. Choose Only One Boss</h3>
+            <p>One font should be the boss. This establishes a hierarchy for the fonts on your page. This can be achieved by varying the size, weight and color.</p>
+            <hr>
+            <h2>The CSS Font Property</h2>
+            <p>To shorten the code, it is also possible to specify all the individual font properties in one property.</p>
+            <p>The <span class="red">font</span> property is a shorthand property for:</p>
+            <ul>
+                <li><span class="red">font-style</span></li>
+                <li><span class="red">font-variant</span></li>
+                <li><span class="red">font-weight</span></li>
+                <li><span class="red">font-size/line-height</span></li>
+                <li><span class="red">font-family</span>
+                </li>
+            </ul>
+            <div class="note"><strong>Note:</strong>The <span class="red">font-size</span> and <span class="red">font-family</span> values are required. If one of the other values is missing, their default value are used.</div>
+
+            <div class="css-eg">
+                <h2>Example</h2>
+                <p>Request multiple fonts:</p>
+                <img src="png\code28.png" alt="Example" class="code-img" style="width: 800px;height: 900px;margin-left: 50px;">
+
+            </div>
+            <br>
+            <hr>
+            <h1>CSS Icons</h1>
+            <hr>
+            <p>Icons can easily be added to your HTML page, by using an icon library.</p>
+            <hr>
+            <h2>How To Add Icons</h2>
+            <p>The simplest way to add an icon to your HTML page, is with an icon library, such as Font Awesome.</p>
+            <p>Add the name of the specified icon class to any inline HTML element (like &lt;i&gt; or &lt;span&gt;).</p>
+            <p>All the icons in the icon libraries below, are scalable vectors that can be customized with CSS (size, color, shadow, etc.)
+
+            </p>
+            <hr>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
